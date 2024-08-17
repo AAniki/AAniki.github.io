@@ -25,7 +25,15 @@ a.btn-solid:hover {
 }
     </style>
     <script>
-      // URlパラメーター params.get('id')
+      URLパラメータコピペ
+      // URLを取得
+let url = new URL(window.location.href);
+
+// URLSearchParamsオブジェクトを取得
+let params = url.searchParams;
+
+// getメソッド
+console.log(params.get('id')); // 5
     </script>
   </head>
   <body>
